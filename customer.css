@@ -1,0 +1,88 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    border: 14px solid black;
+    background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3));
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: auto;
+    min-height: 750px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAUdG-EkBb8f4VpcyIg8PeZQbuNRctEb37zg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#particles-js {
+	height: 100%;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAUdG-EkBb8f4VpcyIg8PeZQbuNRctEb37zg&usqp=CAU');
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.particles-js-canvas-el {
+	position: absolute;
+}
+/* navbar css starts here  */
+
+
+.navbar-brand{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff!important;
+}
+
+
+.nav-link{
+    color: #ffffff!important;
+    font-family:'sans-serif',cursive;
+}
+
+.nav-link:hover{
+    background-color: rgb(13, 148, 182);
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(8 92 114)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 5rem;
+}
+
+.btn-info:hover{
+    background-color: rgb(0 70 100)!important;
+}
+
+.bg-light{
+    background-color: rgb(9 109 135)!important;
+}
+
+.btn-danger{
+    color: rgb(6, 27, 85)!important;
+}
+
+.btn-success{
+    color:rgb(6, 27, 85)!important;
+}
+.table-bordered, .table-bordered td{
+    border: 1px solid #000000!important;
+}
+
+.table-bordered th{
+    border: 2px solid #000000!important;
+}

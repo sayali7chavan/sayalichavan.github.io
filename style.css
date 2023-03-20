@@ -1,0 +1,126 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    border: 8px solid black;
+    background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3));
+    /* border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e1824;
+    
+}
+
+#particles-js {
+	height: 100%;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAUdG-EkBb8f4VpcyIg8PeZQbuNRctEb37zg&usqp=CAU');
+	background-size: cover;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+    height: 300%;
+   
+}
+.particles-js-canvas-el {
+	position: absolute;
+}
+
+.navbar-brand{
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    color: #ffffff!important;
+    
+}
+
+.nav-link{
+    color: #ffffff!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 50px;
+}
+
+.nav-link:hover{
+    background-color:rgb(113, 169, 224);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color:#0e1824;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    margin-bottom: 0.5vh;
+    font-family: 'Roboto',cursive;
+}
+
+.hero-img{
+    height: 68vh;
+    width: 83%;
+    border-style:solid;
+    border-color: rgb(101, 108, 206);
+    border-radius: 80px;
+
+
+
+
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color:rgb(7, 20, 20);
+    color: #039be5!important;
+    transition: 0.5s;
+
+}
+
+.get-started:hover{
+    text-decoration: none;
+    color: #092030;
+    box-shadow: 0 10px 20px rgba(187, 149, 214, 0.4);
+
+}
+
+.bg-light{
+    background-color:rgb(54, 66, 114)!important;
+}
+
+.get-started{
+    background-color: rgb(125, 137, 184)!important;
+    color: #ffffff!important;
+}
+footer {
+	width: 100%;
+	background: rgb(54, 66, 114);
+	position: fixed;
+	bottom: 0;
+	height: 30px;
+	text-align: center;
+	padding: 20px;
+    
+}
+footer > h6 {
+	color: #eeedf1;
+    font-size: larger;
+    text-align: center;
+ 
+}
+
+
+
+/* here content css starts here  */
